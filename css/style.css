@@ -17,13 +17,12 @@ body{
 }
 .container{
     display: flex;
-    width: 1280px;
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 .header-container{
     display: flex;
-    width: 1280px;
     margin: 0;
     padding: 0;
 }
@@ -47,14 +46,19 @@ body{
 .header-box-links{
     display: flex;
     margin-left: auto;
+    margin-right: 50px;
     padding: 26px 0;
     font-size: 17px;
     text-transform: capitalize;
+    flex-wrap: wrap;
+    flex-shrink: 0;
 }
 .content-box{
     display: flex;
     flex-direction: column;
     padding:100px;
+    flex: 1;
+    text-align: left;
 }
 .branding{
     font-size: 20px;
@@ -70,6 +74,13 @@ body{
     font-size:17px;
     padding: 0;
 }
-.circles-img{
+.image-circle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 100px;
+}
+.circle-img{
+    max-width: 100%;
+    height: auto;
 }
