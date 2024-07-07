@@ -98,40 +98,40 @@ body{
 }
 .placeholder{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 125px;
-}
-.box-place{
-    width:249.5px;
-    justify-content:center ;
 }
 .block-header{
-    text-align: center;
+    display: block;
     font-weight: 600;
+    padding-top: 56px;
+    margin: 0;
+    text-align: center;
+
 }
 .paragraph-place{
-    text-align: center;
     padding-top:19px;
+    margin: 0;
+    text-align: center;
 }
 .box-blocks{
     display: flex;
-    justify-content:space-between;
-    align-items: center;
     flex-wrap: wrap;
-    gap:125px;
-    padding:180px 140.15px;
-    list-style-type: none;
+    flex-direction: column;
+    margin-left:140px ;
+    padding-top: 180px;
+    justify-content: center;
+    width:250px;
 }
 .img-place{
-    display: block;
-    padding-left:50px ;
-    padding-bottom:56px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:60px ;
 }
 .title-work{
     text-align: center;
     font-size:32px;
     font-weight:600;
+    padding-top:180px;
 }
 .list-work{
     padding-right:100px;
