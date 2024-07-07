@@ -14,12 +14,12 @@ ol, ul{
 }
 body{
     font-family: 'Epilogue', sans-serif;
+    margin: 0;
 }
 .container{
     display: flex;
     margin: 0;
     padding: 0;
-    justify-content: center;
     flex-wrap: wrap;
 }
 .header-container{
@@ -141,4 +141,59 @@ body{
     gap: 67.5px;
     flex-wrap: wrap;
     justify-content:center;
+    box-sizing: border-box;
+}
+.footer{
+    padding: 70px 100px;
+    border-top: 1px solid #2D2D2D;
+}
+.lets-work{
+    padding-bottom: 40px;
+    font-weight: 600;
+}
+.footer-text{
+    width:360px;
+    line-height:1.5em;
+}
+.footer-links{
+    display: flex;
+    padding-top:60px;
+    gap:13px;
+    margin-left:auto;
+}
+.footer-box{
+    border-top: 1 px solid #2D2D2D;
+}
+.clients{
+    text-align:center;
+    padding-top:100px;
+    font-size:32px;
+}
+.client-box{
+    width:315px;
+    font-weight: 600;
+    background-color: #FFFCF5;
+    border: 1.5px solid #FFD285;
+    margin-left:100px;
+    display: flex;
+    flex-direction: column;
+}
+.review{
+    font-size: 20px;
+    font-weight: 500;
+    color:#2D2D2D;
+    padding-left:30px;
+    padding-right: 22px;
+    padding-top:30px;
+    line-height: 1.8;
+
+}
+.client-box img{
+    padding-left:30px;
+    padding-top: 80px;
+    max-width: 100%;    
+    
+}
+.name-review{
+    display: flex;
 }
