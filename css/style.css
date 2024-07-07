@@ -121,11 +121,16 @@ body{
     justify-content: center;
     width:250px;
 }
+.box-place{
+display: flex;
+flex-wrap: ;
+    }
+
 .img-place{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-left:60px ;
+    margin-left:55px ;
 }
 .title-work{
     text-align: center;
