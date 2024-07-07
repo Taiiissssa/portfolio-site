@@ -80,6 +80,11 @@ body{
     margin-top: 100px;
     margin-right: 50px;
 }
+.platforms{
+        border: 1px solid black;
+        border-right:none;
+        border-left: none;
+}
 .company-logos{
     display: flex;
     padding:0 101px;
@@ -87,5 +92,38 @@ body{
     gap:131.5px;
     flex-wrap: wrap;
     padding-top: 66px;
+    padding-bottom: 61.65px;
     align-items: center;
+}
+.placeholder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 125px;
+}
+.box-place{
+    width:249.5px;
+    justify-content:center ;
+}
+.block-header{
+    text-align: center;
+    font-weight: 600;
+}
+.paragraph-place{
+    text-align: center;
+    padding-top:19px;
+}
+.box-blocks{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:125px;
+    padding:180px 140.15px;
+    list-style-type: none;
+}
+.img-place{
+    display: block;
+    padding-left:50px ;
+    padding-bottom:56px;
 }
