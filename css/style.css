@@ -21,6 +21,7 @@ body{
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
+    width:1280px;
 }
 .header-container{
     display: flex;
@@ -30,7 +31,6 @@ body{
 .navigation{
     display:flex;
     align-items: center;
-    padding: 25px 0;
 }
 .logo{
     font-family:'Epilogue', sans-serif;
@@ -75,9 +75,6 @@ body{
     padding: 0;
 }
 .image-circle{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     margin-top: 100px;
     margin-right: 50px;
 }
@@ -98,6 +95,8 @@ body{
 }
 .placeholder{
     display: flex;
+    padding-bottom:180px;
+    justify-content: center;
 }
 .block-header{
     display: block;
@@ -115,38 +114,27 @@ body{
 .box-blocks{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    margin-left:140px ;
-    padding-top: 180px;
     justify-content: center;
     width:250px;
 }
 .box-place{
-display: flex;
-flex-wrap: ;
-    }
-
-.img-place{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left:55px ;
+display: block;
+text-align: center;
+margin-left: 140.15px;
+margin-top:180px ;
 }
 .title-work{
     text-align: center;
     font-size:32px;
     font-weight:600;
-    padding-top:180px;
+    padding-top:20px;
 }
 .list-work{
-    padding-right:100px;
-    padding-left: 100px;
     padding-top: 60px;
     display: flex;
     gap: 67.5px;
     flex-wrap: wrap;
-    justify-content:center;
-    box-sizing: border-box;
+    justify-content: center;
 }
 .footer{
     padding: 70px 100px;
