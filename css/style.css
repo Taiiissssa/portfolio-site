@@ -17,11 +17,11 @@ body{
     margin: 0;
 }
 .container{
-    display: flex;
     margin: 0;
     padding: 0;
-    flex-wrap: wrap;
-    width:1280px;
+}
+.container-first{
+    display: flex;
 }
 .header-container{
     display: flex;
@@ -97,6 +97,7 @@ body{
     display: flex;
     padding-bottom:180px;
     justify-content: center;
+    gap: 120px;
 }
 .block-header{
     display: block;
@@ -119,8 +120,6 @@ body{
 }
 .box-place{
 display: block;
-text-align: center;
-margin-left: 140.15px;
 margin-top:180px ;
 }
 .title-work{
@@ -168,8 +167,7 @@ margin-top:180px ;
     background-color: #FFFCF5;
     border: 1.5px solid #FFD285;
     margin-left:100px;
-    display: flex;
-    flex-direction: column;
+    
 }
 .review{
     font-size: 20px;
@@ -177,16 +175,25 @@ margin-top:180px ;
     color:#2D2D2D;
     padding-left:30px;
     padding-right: 22px;
-    padding-top:30px;
     line-height: 1.8;
 
 }
-.client-box img{
-    padding-left:30px;
-    padding-top: 80px;
-    max-width: 100%;    
-    
+.img-client{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top:64px;
+
+}
+.name-source{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-bottom: 60px;
+    padding-right: 30px;
 }
 .name-review{
     display: flex;
+    font-weight: 400;
 }
